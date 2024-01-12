@@ -1,0 +1,21 @@
+:root{
+    --normal_spacing: 75px;
+}
+
+#jumbotron{
+    padding-top: var(--normal_spacing);
+    padding-bottom: var(--normal_spacing);
+    background-color: #fff;
+}
+
+@media all and (max-width: 779px){
+    .jumbotron_box{
+        width: 100% !important;
+    }
+}
+
+#albums{
+    background-color: #ecf6f7;
+    padding-top: var(--normal_spacing);
+    padding-bottom: var(--normal_spacing);
+}
